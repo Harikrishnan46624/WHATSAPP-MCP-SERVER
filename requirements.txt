@@ -1,0 +1,7 @@
+langchain
+fastmcp
+langgraph
+mcp[cli]
+langchain-mcp-adapters
+gunicorn
+uvicorn
