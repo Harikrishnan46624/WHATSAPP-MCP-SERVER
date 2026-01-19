@@ -1,3 +1,3 @@
-# app.py
-from whatsapp_mcp_server import mcp 
+from server import mcp  # Adjust import if server.py renamed
+
 app = mcp.http_app()
