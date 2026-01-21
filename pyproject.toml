@@ -127,7 +127,6 @@ dependencies = [
     "python-json-logger==4.0.0",
     "python-multipart==0.0.21",
     "pytz==2025.2",
-    "pywin32==311",
     "pywin32-ctypes==0.2.3",
     "pyyaml==6.0.3",
     "rank-bm25==0.2.2",
