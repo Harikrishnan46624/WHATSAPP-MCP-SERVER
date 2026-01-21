@@ -23,7 +23,7 @@ A production-grade Model Context Protocol (MCP) server for the WhatsApp Cloud AP
 
 1. **Clone and install dependencies:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Harikrishnan46624/WHATSAPP-MCP-SERVER.git
    cd whatsapp-mcp-server
    pip install -r requirements.txt
    ```
@@ -172,6 +172,16 @@ This server is designed to work with MCP-compatible clients such as:
 - Custom AI agents
 - MCP client libraries
 
+### WhatsApp MCP Client
+
+For a ready-to-use client implementation, you can clone and use our companion repository:
+
+```bash
+git clone https://github.com/Harikrishnan46624/WHATSAPP-MCP-CLIENT.git
+cd whatsapp-mcp-client
+# Follow the setup instructions in the client repository
+```
+
 ### Monitoring
 
 ```bash
@@ -224,10 +234,20 @@ The project follows standard Python formatting. Consider using:
 
 ## 🤝 Contributing
 
+We welcome contributions from the community! Please see our [Contributing Guide](CONTRIBUTING.md) for detailed information on:
+
+- Setting up your development environment
+- Development workflow and best practices
+- Code style guidelines
+- Testing requirements
+- Good first issues for new contributors
+
+### Quick Start for Contributors
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
+2. Clone your fork: `git clone https://github.com/Harikrishnan46624/WHATSAPP-MCP-SERVER.git`
+3. Set up development environment (see [CONTRIBUTING.md](CONTRIBUTING.md))
+4. Create a feature branch and make your changes
 5. Submit a pull request
 
 ## 📄 License
@@ -237,3 +257,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ---
 
 **Built for reliability, extensibility, and agent-first architectures with the WhatsApp Cloud API.**
+
+Happy coding! 🚀 Let's build the best WhatsApp MCP server together.
+
+Maintained by Harikrishnan (@Harikrishnan46624)

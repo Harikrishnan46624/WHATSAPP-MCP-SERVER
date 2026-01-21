@@ -337,10 +337,11 @@ class WhatsAppClient:
         async with httpx.AsyncClient(timeout=self.timeout) as client:
             resp = await client.post(url, headers=self.headers, json=payload)
 
-        if resp.status_code == 200:
-            return resp.json()
+        # if resp.status_code == 200:
+        #     return resp.json()
 
-        self._raise_error(resp)
+        return resp.json()
+        # self._raise_error(resp)
 
     @staticmethod
     def _raise_error(resp: httpx.Response) -> None:
