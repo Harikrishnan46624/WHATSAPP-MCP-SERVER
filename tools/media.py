@@ -14,7 +14,8 @@ async def send_whatsapp_document(
     """Send a WhatsApp document message.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+          starting with the country code (e.g., "919876543210").
         media_id (Optional[str]): The media ID. Either media_id or link must be provided.
         link (Optional[str]): The link to the document. Either media_id or link must be provided.
         filename (Optional[str]): The filename.
@@ -40,7 +41,8 @@ async def send_whatsapp_image(
     """Send a WhatsApp image message.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+        starting with the country code (e.g., "919876543210").
         media_id (Optional[str]): The media ID. Either media_id or link must be provided.
         link (Optional[str]): The link to the image. Either media_id or link must be provided.
         caption (Optional[str]): The caption.

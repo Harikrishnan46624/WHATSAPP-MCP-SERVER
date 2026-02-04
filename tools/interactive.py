@@ -14,7 +14,8 @@ async def send_whatsapp_list(
     """Send a WhatsApp interactive list message.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+        starting with the country code (e.g., "919876543210").
         header_text (str): The header text.
         body_text (str): The body text.
         footer_text (str): The footer text.
@@ -39,7 +40,9 @@ async def send_whatsapp_confirmation_buttons(
     """Send a WhatsApp message with confirmation buttons.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+          starting with the country code (e.g., "919876543210").
+
         message (str): The message text.
         footer_text (str, optional): The footer text. Defaults to "Please confirm".
 

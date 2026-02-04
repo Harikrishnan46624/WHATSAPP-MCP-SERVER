@@ -15,7 +15,8 @@ async def send_whatsapp_flow(
     """Send a WhatsApp flow message.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+        starting with the country code (e.g., "919876543210").
         flow_id (str): The ID of the flow.
         body_text (str): The body text of the message.
         cta_text (str): The call-to-action text.

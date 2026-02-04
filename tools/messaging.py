@@ -11,7 +11,8 @@ async def send_whatsapp_text_message(
     """Send a WhatsApp text message.
 
     Args:
-        to (str): The recipient's phone number.
+        to (str): Recipient's phone number in international format **without** the '+' prefix,
+        starting with the country code (e.g., "919876543210").
         body (str): The message body.
         preview_url (bool, optional): Whether to preview URLs. Defaults to False.
 
@@ -33,7 +34,8 @@ async def send_whatsapp_template_message(
     """Send a WhatsApp template message.
 
     Args:
-        to (str): The recipient's phone number.
+       to (str): Recipient's phone number in international format **without** the '+' prefix,
+        starting with the country code (e.g., "919876543210").
         template_name (str): The name of the template.
         language_code (str): The language code (MANDATORY, e.g. 'en_US').
         components (Optional[List[Dict[str, Any]]]): The template components.
